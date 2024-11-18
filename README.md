@@ -1,7 +1,3 @@
-Here’s a professional and concise `README.md` file for your project:
-
----
-
 # 🎥 Movie Review Sentiment Analysis App
 
 Analyze movie reviews effortlessly with this sentiment analysis app! This application uses the **Google Gemini-1.5-flash-001 model** for advanced natural language understanding to classify reviews as **Positive**, **Negative**, or **Neutral**. It also provides an explanation for the chosen sentiment, helping users better understand the analysis.
