@@ -54,10 +54,7 @@ Analyze movie reviews effortlessly with this sentiment analysis app! This applic
    pip install -r requirements.txt
    ```
 
-4. Add your **Google API key** to a `.env` file:
-   ```bash
-   echo "Google_API_Key=YOUR_GOOGLE_API_KEY" > .env
-   ```
+4. Add your **Google API key** to a `.env` file
 
 ---
 
