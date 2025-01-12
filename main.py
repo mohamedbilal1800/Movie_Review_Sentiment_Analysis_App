@@ -1,6 +1,7 @@
 import google.generativeai as genai
 import streamlit as st
 
+st.set_page_config(page_title="Movie Review Sentiment Analysis & Explanation App", page_icon="🎥", layout="wide")
 
 # load api key from secrets.toml file
 GOOGLE_API_KEY = st.secrets["Google_API_Key"]
