@@ -2,7 +2,7 @@ import google.generativeai as genai
 import streamlit as st
 
 
-load_dotenv()
+# load api key from secrets.toml file
 GOOGLE_API_KEY = st.secrets["Google_API_Key"]
 
 
