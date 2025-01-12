@@ -1,15 +1,13 @@
 import google.generativeai as genai
 import streamlit as st
-from dotenv import load_dotenv
-import os
 
 
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("Google_API_Key")
+GOOGLE_API_KEY = st.secrets["Google_API_Key"]
 
 
 if not GOOGLE_API_KEY:
-    raise ValueError("API key is not set in the .env file")
+    raise ValueError("API key is not set in the secrets.toml file")
 
 
 genai.configure(api_key=GOOGLE_API_KEY)
